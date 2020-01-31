@@ -1,0 +1,130 @@
+/**
+ {
+    outline: solid black;
+}
+*/
+
+.body-style {
+    background-color: slateblue;
+}
+
+.btn-kick {
+    height: 5vh;
+    width: 20vw;
+    margin: 2vh;
+    background-color: seagreen;
+    color: lightgray
+}
+
+.btn-punch {
+    height: 5vh;
+    width: 20vw;
+    margin: 2vh;
+    background-color: purple;
+    color: lightgray;
+}
+
+.btn-slap {
+    height: 5vh;
+    width: 20vw;
+    margin: 2vh;
+    background-color: darkred;
+    color: lightgray;
+}
+
+.header-health {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.header-hits {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+}
+
+.header-target {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.3vh;
+}
+
+hr {
+    border: solid;
+}
+
+.img-bugs {
+    height: 30vh;
+    border: solid black;
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+}
+
+.input-health {
+    background-color: slategray;
+    height: 6vh;
+    width: 20vh;
+    margin: 1vh;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.input-hits {
+    background-color: slategray;
+    height: 6vh;
+    width: 20vh;
+    margin: 1vh;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.input-name {
+    background-color: lightgray;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 6vh;
+}
+
+.lbl-health {
+    background-color: gold;
+    margin: 1vh;
+    padding: 1vh;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.lbl-hits {
+    background-color: gold;
+    margin: 1vh;
+    padding: 1vh;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.p-btn-center {
+    display: flex;
+    justify-content: center;
+}
+
+.p-dropdown
+{
+    display:flex;
+    justify-content:center;
+
+}
+
+.span-header-text {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    font-size: 5vh;
+    font-weight: bolder;
+}

@@ -1,0 +1,138 @@
+<!--Base Bootstrap index.html-->
+<!--did not finish enter target name-->
+<!--Slap Game 2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./game.css">
+    <title>Document</title>
+</head>
+
+<body class="container-fluid body-style">
+
+    <header>
+        <div class="row p-2">
+            <div class="col-12 col-md-12 border">
+                <p>
+                    <span class="span-header-text">The Slap Game V2.0</span>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+
+            <div class="col-12 col-md-4 border">
+                <p class="header-target">
+                    <input id="target-name" , class="input-name" placeholder="Enter Target's Name" type="text">
+                    <button class = "btn-Add" onclick = "addPlayer() " >Add</button>
+                </p>
+            </div>
+            <div class="col-12 col-md-4 border">
+                <p class="header-hits">
+                    <label class="lbl-hits">Hits</label>
+                    <input id="current-hits" , class="input-hits" type="text">
+                </p>
+            </div>
+            <div class="col-12 col-md-4 border">
+                <p class="header-health">
+                    <label class="lbl-health">Health Score</label>
+                    <input id="current-health" class="input-health" type="text">
+                </p>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <section id="image">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <p class="img-center">
+                        <img class="img-bugs" src="./bugs_ninja.jpg">
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <hr>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-12 col-md-4 border">
+                <p class="p-btn-center">
+                    <button class="btn-slap" onclick="slap()">SLAP
+                    </button>
+                </p>
+            </div>
+            <div class="col-12 col-md-4 border">
+                <p class="p-btn-center">
+                    <button class="btn-punch" onclick="punch()">PUNCH
+                    </button>
+                </p>
+            </div>
+            <div class="col-12 col-md-4 border">
+                <p class="p-btn-center">
+                    <button class="btn-kick" onclick="kick()">KICK
+                    </button>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row p-4">
+            <div class="col-12 col-md-12 p-dropdown">
+                <p >
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CHOOSE MY COUNTERATTACK
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" onclick = "addCounterMeasures('mace')">MACE</a>
+                        <a class="dropdown-item" onclick = "addCounterMeasures('sledgehammer')">SLEDGEHAMMER</a>
+                        <a class="dropdown-item" onclick = "addCounterMeasures('switchblade')">SWITCHBLADE</a>
+                    </div>
+                </div>
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="./game.js"></script>
+
+</body>
+<footer>
+    <div class="row">
+        <div class="col">
+
+        </div>
+    </div>
+
+</footer>
+
+</html>
